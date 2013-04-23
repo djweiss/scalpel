@@ -15,7 +15,7 @@ Instructions (important)
   * Download the code and extract to a directory. 
   * **If cloning from git**, make sure to run "git submodule init" and "git submodule update" to get the latest dependencies. 
   * **If downloading the zip archive**, make sure to also download and manually extract the _matlab-utils_ submodule from <https://github.com/djweiss/matlab-utils/archive/master.zip>. 
-  * Go to that directory and start MATLAB.
+  * Go to that directory and start MATLAB. You need to rname the extracted contest to _matlab-utils_ for this to work.
   * Open scalpel_demo.m and follow the instructions there.
 
 
