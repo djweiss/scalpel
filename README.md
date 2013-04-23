@@ -1,4 +1,4 @@
-Segmentation Cascades with Localized Priors and Efficient Learning
+SCALPEL: Segmentation Cascades with Localized Priors and Efficient Learning
 =======
 
 This is the source code and data files needed to reproduce the experiments from the paper,
