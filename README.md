@@ -12,7 +12,8 @@ Rather than include even more third-party tools (DPM, Objectness, etc.) to gener
 Instructions 
 ========
 
-  * Download the code and extract to a directory. Go to that directory and start MATLAB.
+  * Download the code and extract to a directory. If cloning from git, make sure to run "git submodule init" and "git submodule update" to get the dependencies. 
+  * Go to that directory and start MATLAB.
   * Open scalpel_demo.m and follow the instructions there.
 
 
