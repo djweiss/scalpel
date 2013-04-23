@@ -1,6 +1,6 @@
 function seg = precomputeSeg(cache, imgfile, opts)
 
-addpath(fullfile(opts.src_dir,'BSR','grouping','lib'));
+addpath(fullfile(opts.src_dir,'thirdparty','BSR','grouping','lib'));
 
 gPb = cache.get(imgfile, 'gPb');
 

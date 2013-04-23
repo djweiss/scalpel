@@ -1,6 +1,6 @@
 function [segdata] = precomputeUCM(imgfile, opts)
 
-addpath(fullfile(opts.src_dir,'BSR','grouping','lib'));
+addpath(fullfile(opts.src_dir,'thirdparty', 'BSR','grouping','lib'));
 
 tic
 [gPb_orient, gPb_thin, textons] = globalPb(imgfile); %, '', 0.1);
