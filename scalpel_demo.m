@@ -21,6 +21,9 @@ imgfile = sprintf('./data/%s.jpg', imgname);
 img = imread(imgfile);
 imshow(img);
 
+% Load the bounding boxes from the paper for this image
+boxes = loadvar(sprintf('./data/boxes/%s.mat',imgname));
+
 opts = scalpel.config;
 if ~exist(opts.working_dir, 'dir')
     mkdir(opts.working_dir);
